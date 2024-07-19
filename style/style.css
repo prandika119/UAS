@@ -1,0 +1,29 @@
+:root {
+	--color1: #f19726;
+	--color2: #1ca599;
+}
+.hero {
+	height: 100vh;
+}
+
+.img-top {
+	background-color: var(--color1);
+	border-radius: 50%;
+}
+.bgcolor1 {
+	background-color: var(--color1);
+}
+.bgcolor2 {
+	background-color: var(--color2);
+}
+
+.multi-line-text-truncate {
+	overflow: hidden; 
+	max-width: 800px;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	margin: 20px auto;
+}
+
+
